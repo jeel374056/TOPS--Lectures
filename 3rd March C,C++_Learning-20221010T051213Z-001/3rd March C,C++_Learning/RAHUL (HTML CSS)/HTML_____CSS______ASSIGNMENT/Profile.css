@@ -1,0 +1,268 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* navbar */
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 20px 0;
+}
+
+.navbar ul li {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.navbar ul li a {
+    padding: 8px 55px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: white;
+    transition: all .5s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: #fff;
+    color: red;
+    box-shadow: 0 0 10px white, 0 0 15px white, 0 0 20px black;
+    border-radius: 10px;
+}
+
+
+/* Home section */
+
+
+
+#Home {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+span {
+    color: rgba(255, 0, 0, 0.787);
+    text-shadow: black;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#Home::before {
+
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(bgi.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid white; */
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    right: 55%;
+
+}
+
+.headings {
+
+    font-size: 60px;
+    text-align: center;
+    margin: 100px 0px;
+    color: #fff;
+}
+
+.main p {
+    font-size: 35px;
+    margin-bottom: 25px;
+    margin-top: -95px;
+}
+
+.btn {
+    padding: 10px 35px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    outline: none;
+    transition: .6s ease;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: white;
+    background-color: rgba(47, 138, 190, 0.657);
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+    font-weight: bold;
+}
+
+
+/* About me section  */
+
+
+#About {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 5px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+}
+
+
+#pic {
+    display: flex;
+
+}
+
+#pic img {
+    width: 700px;
+    height: 500px;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#intro h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+#intro h2::first-letter {
+    color: red;
+    font-size: 50px;
+}
+
+
+/* profile section  */
+
+#profile {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.gallery img {
+
+    width: 360px;
+    height: auto;
+    margin: 20px;
+}
+
+.gallery img:hover {
+
+    background-color: #fff;
+    cursor: pointer;
+}
+
+
+
+/* contect me  */
+
+
+
+#Contect {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+    padding: 20px;
+}
+
+
+.form {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.input {
+    padding: 12px;
+    margin: 15px;
+    width: 30%;
+    border: none;
+    outline: none;
+}
+
+#msg {
+    width: 30%;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    outline: none;
+}
+
+.send {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    padding: 8px 35px;
+    margin: 32px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    transition: .5s ease;
+}
+
+.send:hover {
+    color: black;
+    background-color: white;
+    box-shadow: 0 0 5px white, 0 0 10px black, 0 0 20px white;
+}

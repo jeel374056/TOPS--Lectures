@@ -1,0 +1,170 @@
+                                                ------- ASSIGNMENT ---------- 
+
+
+------------------------------------------------------------------------------------------------------------------------------
+
+CREATE TABLE USER (Firstname VARCHAR(20),Lastname VARCHAR(20),address VARCHAR(50),city VARCHAR(30),age INT);
+
+
+
+INSERT INTO USER VALUES ('Mickey','Mouse','123 fantasy way','Anaheim',73);
+INSERT INTO USER VALUES ('Bat','Man','321 Cavern Ave','Gotham',54);
+INSERT INTO USER VALUES ('Wonder','Woman','987 Truth Way','Paradise',39);
+INSERT INTO USER VALUES ('Donald','Duck','555 Quack Street','Mallard',65);
+INSERT INTO USER VALUES ('Bugs','Bunny','567 Currot Street','Rascal',58);
+INSERT INTO USER VALUES ('Wiley','Coyote','999 Acme Way','Canyon',61);
+INSERT INTO USER VALUES ('Cat','Woman','234 Purrfect Street','Hiralball',32);
+INSERT INTO USER VALUES ('Tweety','Bird','543','Itotltaw',28);
+-------------------------------------------------------------------------------------------------------------------------
+
+------------  
+ NEW TABLE
+------------
+CREATE TABLE student(Rollno INT PRIMARY KEY, NAME VARCHAR(30),Branch VARCHAR(40));
+
+INSERT INTO student VALUES (1,'Jay','Computer Science');
+INSERT INTO student VALUES (2,'Suhani','Electronic and Com');
+INSERT INTO student VALUES (3,'Kirit','electronic and Com');
+-------------------------------------------------------------------------------------------------------------------------
+
+
+-----------------------
+      NEW TABLE
+-----------------------
+CREATE TABLE Exam (Rollno INT,S_code VARCHAR(30),Marks INT,P_code VARCHAR(30));
+
+INSERT INTO Exam VALUES (1,'CS11',50,'CS');
+INSERT INTO Exam VALUES (1,'CS12',60,'CS');
+INSERT INTO Exam VALUES (2,'EC101',66,'EC');
+INSERT INTO Exam VALUES (2,'EC102',70,'EC');
+INSERT INTO Exam VALUES (3,'EC101',45,'EC');
+INSERT INTO Exam VALUES (3,'EC102',50,'EC');
+------------------------------------------------------------------------------------------------------------------------------
+
+
+---------------
+   NEW TABLE
+---------------
+
+create table Employee (Employee_id int ,
+First_name varchar(30),
+Last_name varchar(40),
+salary double,
+Joining_date varchar(60),
+Department varchar(40));
+
+insert into Employee values (1,'John','Abraham',1000000,'01-JAN-13 12.00.00 AM','Banking');
+insert into Employee values (2,'Michael','Clarke',800000,'01-JAN-13 12.00.00 AM','Insurance');
+insert into Employee values (3,'Roy','Thomas',700000,'01-FEB-13 12.00.00 AM','Banking');
+insert into Employee values (4,'Tom','Jose',600000,'01-FEB-13 12.00.00 AM','Insurance');
+insert into Employee values (5,'Jerry','Pinto',650000,'01-FEb-13 12.00.00 AM','Insurance');
+insert into Employee values (6,'Philip','Mathew',750000,'01-JAN-13 12.00.00 AM','Services');
+insert into Employee values (7,'Testname1','123',650000,'01-JAN-13 12.00.00 AM', 'Services');
+insert into Employee values (8,'Testname2','Lname%',600000,'01-FEb-13 12.00.00 AM','Insurance');
+------------------------------------------------------------------------------------------------------------------------------
+
+
+
+-------------------------  
+       NEW TABLE
+-------------------------
+
+
+create table Incentive (Employee_ref_id int, 
+Incentive_date varchar(30),
+Incentive_Amount int);
+
+
+insert into Incentive values (1,'01-FEB-13',5000);
+insert into Incentive values (2,'02-FEB-13',3000);
+insert into Incentive values (3,'01-FEB-13',4000);
+insert into Incentive values (1,'01-JAN-13',4500);
+insert into Incentive values (2,'01-JAN-13',3500);
+---------------------------------------------------------------------------------------------------------
+
+
+
+==============
+  NEW TABLE
+==============
+
+
+
+create table SALSEPERSON (SNO int, 
+SNAME varchar(30),
+CITY varchar(30),
+COMM double);
+
+
+insert into SALSEPERSON values (1001,'Peel','London',.12);
+insert into SALSEPERSON values (1002,'Serres','San jose',.13);
+insert into SALSEPERSON values (1004,'Motika','London',.11);
+insert into SALSEPERSON values (1007,'Rafkin','Barcelona',.15);
+insert into SALSEPERSON values (1003,'Axelord','New York',.1);	
+------------------------------------------------------------------------------------------------------------
+
+
+
+=======================
+      NEW TABLE 
+======================
+
+
+create table CUSTOMER (CNM INT,
+ CNAME varchar(40),
+ CITY varchar(50),
+ RATING int,
+ SNO int);
+ 
+ 
+ insert into CUSTOMER values (201,'Hoffman','London',100,1001);
+ insert into CUSTOMER values (202,'Giovanne','Roe',200,1003);
+ insert into CUSTOMER values (203,'Liu','San jose',300,1002);
+ insert into CUSTOMER values (204,'Grass','Barcelona',100,1002);
+ insert into CUSTOMER values (206,'Clemens','London',300,1007);
+ insert into CUSTOMER values (207,'Pereira','Roe',100,1004);
+--------------------------------------------------------------------------------------------------------------
+
+
+
+
+===================
+   NEW TABLE
+===================
+
+ create table Oorderer (ONM int,
+ AMT double,
+ ODE varchar(40),
+ CNM int,
+ SNO int);
+ 
+ 
+ insert into Oorderer values (3001,18.69,'03-OCT-94',204 ,1007);
+ insert into Oorderer values (3003,767.19,'030OCT-94',201,1001);
+ insert into Oorderer values (3002,1900.10,'03-OCT-94',207,1004);
+ insert into Oorderer values (3005,3005,'03-OCT-94',203,1002);
+ insert into Oorderer values (3006,3006,'04-OCT-94',203,1007);
+ insert into Oorderer values (3009,3009,'04-OCT-94',202,1003);
+ insert into Oorderer values (3007,3007,'05-OCT-94',204,1002);
+ insert into Oorderer values (3008,3008,'050OCT-94',206,1001);
+ insert into Oorderer values (3010,3010,'06-OCT-94',204,1002);
+ insert into Oorderer values (3011,3011,'06-OCt-94',206,1001);
+
+
+
+
+
+
+
+=============================================================================================================================================================================================
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+    </style>
+</head>
+
+<body>
+    <h1 style="color: red;background-color:lightblue;">
+        <center>Individual Registration</center>
+        <hr>
+    </h1>
+    
+    <form action="" style="background-color:rgb(119, 222, 195)">
+        <br>
+        <h2 style="color:red;">User Particulars</h2>
+        <table align="center" width="50%" border="0px">
+            <tr>
+                <td align="right">Login ID</td>
+                <td>
+                    <input type="text" name="Login ID" id="login">
+                </td>
+            </tr>
+            <tr>
+                <td align="right">Password</td>
+                <td>
+                    <input type="password" name="Password" id="pass" maxlength="8">
+                </td>
+            </tr>
+            <tr>
+                <td align="right">Confirm Password</td>
+                <td><input type="text" name="confirm password" id="pass" maxlength="8"></td>
+            </tr>
+        </table>
+    
+    <h2 style="color: red;">Personal Particulars</h2>
+    
+        <table align="center" width="60%" border="0px">
+            <tr>
+                <td align="right"><label for="sal">Salutation</label></td>
+                <td>
+                    <select name="Select" id="sal">
+                        <option value="">Select</option>
+                        <option value="">A</option>
+                        <option value="">B</option>
+                        <option value="">C</option>
+                        <option value="">D</option>
+                    </select>
+                </td>
+
+                <td align="right">
+                    <label for="fname">First Name</label>
+                </td>
+                <td>
+                    <input type="text" name="First Name" id="fname">
+                </td>
+            </tr>
+            <tr>
+                <td align="right"><label for="mame">Middle Name</label></td>
+                <td><input type="text" name="Middle Name" id="mname"></td>
+                <td align="right"><label for="lname">Last Name</label></td>
+                <td><input type="text" name="Last Name" id="lname"></td>
+            </tr>
+
+            <tr>
+                <td align="right"><label for="RS">Resident Status</label></td>
+                <td>
+                    <select name="Select" id="RS">
+                        <option value="">Select</option>
+                        <option value="">A</option>
+                        <option value="">B</option>
+                        <option value="">C</option>
+                        <option value="">D</option>
+                    </select>
+                </td>
+                <td align="right"><label for="cou">Country</label></td>
+                <td>
+                    <select name="Select" id="cou">
+                        <option value="">Select</option>
+                        <option value="">India</option>
+                        <option value="">USA</option>
+                        <option value="">Canada</option>
+                        <option value="">UAE</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="right"><label for="eid">Email-id</label></td>
+                <td><input type="email" name="Email-id" id="eid"></td>
+                <td align="right"><label for="num">Mobile Number</label></td>
+                <td><input type="number" name="Mobile Number" id="num"></td>
+            </tr>
+        </table>
+    
+    <h2 style="color: red;">Account Particulars</h2>
+
+            <table align="center" width="60%" border="0px">
+            <tr>
+                <td align="right">
+                    <label for="acnumber">15 Digit<br>Account No</label>
+                </td>
+                <td>
+                    <input type="text" name="15 Digit Account No" id="acnumber" maxlength="15">
+                </td>
+                <td align="right"><label for="nname">Nick Name </label></td>
+                <td><input type="text" name="Nick Name" id="nname"></td>
+
+            </tr>
+            <tr>
+                <td align="right"><label for="">Fund Transfer</label></td>
+                <td>
+                    <select name="Select" id="cou">
+                        <option value="">Select</option>
+                        <option value="">UPI</option>
+                        <option value="">Net Banking</option>
+                        <option value="">Debit Card</option>
+                        <option value="">Cardit Card</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+   
+
+    <h2 style="color: red;">DECLARATION</h2>
+    <p>
+        I Have Read,understood and here by agree to the terms and conditions in respect of all products and channels.
+    </p>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia corrupti quae, eos dolores officia consequuntur
+        beatae earum reiciendis recusandae sequi. At iste ex earum tenetur voluptate eum illo repellendus nostrum.
+    </p>
+    <table align="center">
+        <tr>
+        <td><input type="submit" value="Submit"></td>
+        <td><input type="reset" value="Reset"></td>
+    </tr>
+    </table>
+    </form>
+</body>
+
+</html>

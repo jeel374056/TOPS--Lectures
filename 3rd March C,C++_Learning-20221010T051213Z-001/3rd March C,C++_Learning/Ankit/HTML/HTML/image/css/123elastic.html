@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+    <style>
+        * {
+            margin: auto;
+            padding: 0;
+            box-sizing: border-box;
+            color: #fff;
+            font-family: sans-serif;
+        }
+
+        .main {
+            width: 100%;
+            height: 100vh;
+            background-image: url(https://images.pexels.com/photos/358528/pexels-photo-358528.jpeg);
+            background-size: cover;
+            background-position: center;
+            background-blend-mode: overlay;
+            position: relative;
+            text-decoration: none;
+            /* text-transform: uppercase; */
+            background-color: rgb(62, 140, 218);
+            list-style: none;
+
+
+        }
+
+        .header {
+            width: 100%;
+            padding: 10px 0;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            flex-direction: row;
+            cursor: pointer;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            align-items: center;
+            gap: 50px;
+            font-size: 20px;
+            letter-spacing: 1.4px;
+            justify-content: space-between;
+
+        }
+
+        .center {
+            width: 100%;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            text-align: center;
+            color: #fff;
+        }
+
+        .center h1 {
+            font-size: 60px;
+            margin-top: 80px;
+        }
+
+        .content p {
+            margin: 20px auto;
+            font-weight: 100;
+            line-height: 25px;
+            font-size: 30px;
+        }
+
+        .btn button {
+            color: rgb(14, 14, 14);
+            font-size: 22px;
+            font-weight: 700;
+            padding: 6px 14px;
+            width: 12%;
+            margin: auto;
+            border-radius: 20px;
+            letter-spacing: 2px;
+            cursor: pointer;
+            /* background: transparent; */
+            position: relative;
+            overflow: hidden;
+            background-blend-mode: darken;
+        }
+
+        .btn span:hover .first {
+            top: 0;
+            right: 0;
+        }
+
+        .icon ul {
+            width: 100%;
+            /* margin: 0; */
+            /* padding: 100px; */
+            justify-content: left;
+            align-items: flex-start;
+            flex-direction: column-reverse;
+            position: relative;
+            bottom: 130px;
+            right: 700px;
+            font-size: 30px;
+            cursor: grabbing;
+
+
+        }
+
+        .icon1 {
+
+            top: 150px;
+            /* left: 600px; */
+            position: fixed;
+            left: 1450px;
+            font-size: 30px;
+            background: center;
+            background-size: cover;
+            list-style: circle;
+            cursor: grabbing;
+        }
+
+        .main :nth-child(2) {
+            color: black;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="logo">
+                <h1>𝔼𝕝𝕒𝕤𝕥𝕚𝕔</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li></li>
+                    <li>Home</li>
+                    <li>Sliders</li>
+                    <li>Pages</li>
+                    <li>Portfolio</li>
+                    <li>Blog</li>
+                    <li>Shop</li>
+                    <li>Features</li>
+                    <li>Elements</li>
+                    <li>Contact</li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="center">
+
+            <h1>WELCOME TO ELASTIC</h1>
+            <br>
+
+            <P>Maecenas tortor nunc,imperdiet sit amet ,tincidunt facibus dolor</P>
+            <br>
+            <br>
+            <br>
+            <div class="btn">
+                <button> <span class="first"></span> BUY NOW !</button>
+            </div>
+            <div class="icon">
+                <ul>
+                    <li><i class="fa-solid fa-arrow-left"></i></li>
+                </ul>
+            </div>
+            <div class="icon1">
+                <ul>
+                    <li><i class="fa-solid fa-arrow-right"></i></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

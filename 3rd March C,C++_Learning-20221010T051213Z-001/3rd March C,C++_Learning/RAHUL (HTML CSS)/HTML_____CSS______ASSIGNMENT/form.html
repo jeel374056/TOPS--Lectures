@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>🏦 BANKING FORM 🏦</h1>
+    <form action="https://onlinesbi.com">
+
+        <h2>♦️ USER PARTICULARS ♦️</h2>
+        <table cellpadding="12px" cellspacing="4px">
+            <tr>
+                <td class="R">
+                    <label for="LOG">⁕ Login Id : </label>
+                </td>
+                <td>
+                    <input type="text" name="login" id="LOG" placeholder="Enter id ">
+                </td>
+            </tr>
+            <tr>
+                <td class="R">
+                    <label for="pass">⁕ Password : </label>
+                </td>
+                <td>
+                    <input type="password" name="password" id="pass" placeholder="Enter Password " maxlength="8">
+                </td>
+            </tr>
+            <tr>
+                <td class="R">
+                    <label for="ConfirmPass">⁕ Confirm Password : </label>
+                </td>
+                <td>
+                    <input type="password" name="Password" id="ConfirmPass" placeholder="Enter Same Password "
+                        maxlength="8" required>
+                </td>
+            </tr>
+        </table>
+        <h2>♦️ PERSONAL PARTICULARS ♦️</h2>
+        <table cellpadding="12px" cellspaccing="4px">
+            <tr>
+                <td class="R">
+                    ⁕ Saluation : </td>
+                <td><select name="salu" id="saluation">
+                        <option value="">Select</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                    </select>
+                </td>
+
+                <td class="R">
+                    <label for="Fname">⁕ First Name : </label>
+                </td>
+                <td>
+                    <input type="text" name="First name" id="Fname" placeholder="Enter First Name">
+                </td>
+            </tr>
+            <tr>
+                <td class="R">
+                    <label for="Mname">⁕ Middle Name : </label>
+                </td>
+                <td>
+                    <input type="text" name="middle name" id="Mname" placeholder="Enter Middle Name" required>
+                </td>
+                <td class="R">
+                    <label for="Lname">⁕ Last Name : </label>
+                </td>
+                <td>
+                    <input type="text" name="Last name" id="Lname" placeholder="Enter Last Name" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="R">
+                    ⁕ Stat :</td>
+                <td><select name="stat" id="Stat">
+                        <option value="">Select stat</option>
+                        <option value="">Gujarat</option>
+                        <option value="">Maharstra</option>
+                        <option value="">Delhi</option>
+                        <option value="">Kalkata</option>
+                        <option value="">Banglor</option>
+                    </select>
+
+                </td>
+                <td class="R">
+                    ⁕ City : </td>
+                <td><select name="city" id="City">
+                        <option value="">Select</option>
+                        <option value="">Surat</option>
+                        <option value="">Ahamdabad</option>
+                        <option value="">vadodra</option>
+                        <option value="">Bhavnagar</option>
+                        <option value="">Rajkot</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="R">
+                    <label for="email">⁕ E-mail : </label>
+                </td>
+                <td>
+                    <input type="email" name="mail" id="email" placeholder="Enter e-mail address">
+                </td>
+                <td class="R">
+                    <label for="mobile">⁕ Phone Number : </label>
+                </td>
+                <td>
+                    <input type="taxt" name="Number" id="mobile" placeholder="Enter mobile number" maxlength="10"
+                        required>
+                </td>
+            </tr>
+        </table>
+        <h2>♦️ ACCOUNT PARTICULARS ♦️</h2>
+        <table cellpadding="12px" cellspacing="4px">
+            <tr>
+                <td class="R">
+                    <label for="accNum">⁕ 15 Digit Account Number : </label>
+                </td>
+                <td>
+                    <input type="text" name="Account Number" id="accNum" placeholder="Enter Account number"
+                        maxlength="15" required>
+                </td>
+                <td class="R">
+                    <label for="IFSC CODE">⁕ IFSC CODE : </label>
+                </td>
+                <td>
+                    <input type="text" name="code" id="IFSC CODE" placeholder="Enter ifsc code" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="R">
+                    ⁕ Fund transfer :</td>
+                <td><select name="fund" id="fundTransfer">
+                        <option value="">Select Amount</option>
+                        <option value="">5,000</option>
+                        <option value="">10,000</option>
+                        <option value="">15,000</option>
+                        <option value="">20,000</option>
+                        <option value="">25,000</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <h2>♦️ DECLARATION ♦️</h2>
+        <table cellpadding="12px" cellspacing="4px">
+            <tr>
+                <td>
+                    <fieldset>
+                        <dl>
+                            <dd>
+                                <pre>
+                              <b> &rarr; I Have Read, Understood And Hereby Agree To The Terms And COnditions In Respect Of All Products
+                                And Channel.
+                                <br>
+                               &rarr; I Understand That Any Change in Terms And Condition Applicable To This Relationship Would Be
+                                Made Available to Me On Request At Any Brnches.I Confirm That All Accounts Under This Login name
+                                Are Operated Singly and In Case Of Joint Account Operated Bt Other. <br>
+                               &rarr; I Do Hereby Declare That Information Furnished In This Form Is True The Best of My Acknoledge and
+                                Beleif. </b>
+                           </pre>
+                            </dd>
+                        </dl>
+                    </fieldset>
+                </td>
+            </tr>
+        </table>
+        <table cellpadding="12px" cellspacing="4px">
+
+            <tr>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <td class="b">
+                    <hr>
+                    <input type="submit" value="Submit now" class="hi">
+                    <input type="reset" value="Reset now" class="hi">
+                    <hr>
+                </td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+
+</html>
