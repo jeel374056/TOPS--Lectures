@@ -1,8 +1,9 @@
 #include <stdio.h>
 int main()
 {
-    printf("%d", 65);
-    printf("Something new");
+    float age;
+    printf("Enter Your age: ");
+    scanf("%f", &age);
+    printf("My %f age is %f %f", age, age, age);
     return 0;
-    printf("this will jnot included");
 }

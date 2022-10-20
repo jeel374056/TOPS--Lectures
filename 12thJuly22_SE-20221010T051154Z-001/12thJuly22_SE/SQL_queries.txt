@@ -28,7 +28,7 @@ create table course(
     primary key(courseID)
 );
 create table student(
-	studentID int auto_increment,
+    studentID int auto_increment,
     student_name varchar(100),
     student_email varchar(50),
     student_address varchar(200),
