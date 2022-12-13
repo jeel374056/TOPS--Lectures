@@ -3,32 +3,22 @@ using namespace std;
 class A
 {
 public:
-     void addition()
+    virtual void addition()
     {
-        cout << "Addition of Class A";
-    }
-    void subtraction()
-    {
-        cout << "Subtraction of A";
+        cout << "Class A no addition";
     }
 };
 class B : public A
 {
-    // void addition()
-    // {
-    //     cout << "Addition of class B and removed Class A addition";
-    // }
-    void multiplication()
+    void addition()
     {
-        cout << "Multiplication of B";
+        cout<<"Class b no addition";
     }
 };
 int main()
 {
-    A obj1;
-    B obj2;
-    obj1.addition();
-    obj1.subtraction();
-    obj2.
+    B obj1;
+    A *obj2=&obj1;
+    obj2->addition();
     return 0;
 }

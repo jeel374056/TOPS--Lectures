@@ -1,11 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int arr[] = {12, 15, 21
-    
-    
-    
-    };
+    int arr[] = {12, 15, 21 };
     int sum = 0;
     printf("%d", sizeof(arr));
     // for (int i = 0; i < 10; i++)

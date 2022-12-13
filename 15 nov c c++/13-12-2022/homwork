@@ -1,0 +1,8 @@
+// structure Employee
+// {
+//     empid integer
+//     empname string
+//     empage integer
+//     empdept string
+//     empsalary integer
+// }

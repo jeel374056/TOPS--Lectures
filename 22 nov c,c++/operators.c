@@ -28,6 +28,6 @@ logical operator
 miscelleanous operator
 sizeof &
 bitwise operator
-& | << >>
+& | << >> ~
 
 */

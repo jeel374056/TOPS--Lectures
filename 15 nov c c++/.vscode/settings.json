@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "stdio.h": "c",
-        "logicalOperator.C": "cpp"
+        "logicalOperator.C": "cpp",
+        "string.h": "c"
     }
 }
