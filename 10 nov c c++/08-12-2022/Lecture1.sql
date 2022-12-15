@@ -1,6 +1,7 @@
 -- database
 -- database create query
-create database college;
+create database collegechk;
+use collegechk;
 -- database delete query
 drop database college;
 
@@ -12,8 +13,18 @@ age int ,
 mobile varchar(10),
 email varchar(25),
 address varchar(200),
-primary key(studentid)
+courseid int,
+primary key(studentid),
+foreign key(courseid) references course(courseid)
 );
+
+create table course(
+courseid int ,
+ course_name varchar(20),
+fees int,
+primary key(courseid)
+);
+
 -- for delete table drop and truncate
 
 drop table student;-- it will delete whole table with record and structure(schema) both
@@ -25,16 +36,14 @@ add column
 rename column
 		change-- name and datatype ---
 		rename---only name change ---to
-change datatype
 remove column
 
 rename table
 */
 -- add columns
-alter table student add column blood_group varchar(3);
 
-
+alter table course  add column blood_group varchar(3);
 -- rename column
-alter table student rename column age to student_age;
+alter table course rename column age to student_age;
 -- change column
 alter table student change mobile student_mobile varchar(15);
