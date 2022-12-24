@@ -36,5 +36,8 @@ int main()
     {
         printf("Enter Number between 1 to 7");
     }
+    // hthrtrtgrt
+    // __GXX_MERGED_TYPEINFO_NAMEStg
+
     return 0;
 }

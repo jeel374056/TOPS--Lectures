@@ -8,6 +8,10 @@ int main()
     int add = n1 + n2;
     printf("Addition of two numbers = %d", add);
     return 0;
+    // if(per<100 && per>90)
+    // {
+    //     printf("A+");
+    // }
 }
 /*
 typecasting

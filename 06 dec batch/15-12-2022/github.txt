@@ -1,0 +1,8 @@
+github.com 
+    username 
+    email
+
+gitbash first time in life command
+
+git config --global user.name "sugandhsec"
+git config --global user.email "sugandhsec112@gmail.com"

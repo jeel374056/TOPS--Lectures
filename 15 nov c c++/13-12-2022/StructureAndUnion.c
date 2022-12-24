@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include<string.h>
+#include <string.h>
 struct student
 {
     char name[30];
@@ -9,7 +9,10 @@ struct student
 };
 int main()
 {
-    struct student s, p,t;
+    int n;
+    printf("Enter Number of user: ");
+    scanf("%d", &n);
+    struct student s[n];
     // struct student t;
     s.age = 30;
     s.marks = 98;

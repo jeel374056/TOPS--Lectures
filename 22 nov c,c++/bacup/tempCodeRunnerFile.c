@@ -1,1 +1,1 @@
- =%d %f %d %d", age, wei
+b

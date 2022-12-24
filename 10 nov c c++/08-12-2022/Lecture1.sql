@@ -1,13 +1,13 @@
 -- database
 -- database create query
-create database collegechk;
-use collegechk;
+create database mycollage;
+use mycollage;
 -- database delete query
-drop database college;
+drop database mycollage;
 
 -- table
 create table student(
-studentid int ,
+studentid int auto_increment ,
 student_name varchar(20),
 age int ,
 mobile varchar(10),
@@ -18,8 +18,9 @@ primary key(studentid),
 foreign key(courseid) references course(courseid)
 );
 
+drop table course;
 create table course(
-courseid int ,
+courseid int auto_increment,
  course_name varchar(20),
 fees int,
 primary key(courseid)
@@ -47,3 +48,28 @@ alter table course  add column blood_group varchar(3);
 alter table course rename column age to student_age;
 -- change column
 alter table student change mobile student_mobile varchar(15);
+
+-- insert
+
+insert into course(course_name,fees) values ("MCA",60000);
+
+insert into student(student_name,age,mobile,email,address,courseid)
+values ("Yash Chapla",28,"965478123","yash@gmail.com","surat",2)
+
+-- update 
+-- update tablename set columnname ="Vadodara" where condition;
+
+update student set student_city="Surat" where student_name="neel";
+
+-- delete 
+-- delete from tablename where condition
+
+delete from student where studentID=5;
+
+
+
+
+
+
+
+

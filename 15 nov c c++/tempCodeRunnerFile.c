@@ -1,1 +1,1 @@
- printf("%d", sizeof(a));
+p

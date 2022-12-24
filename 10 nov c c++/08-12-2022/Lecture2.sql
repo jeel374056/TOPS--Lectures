@@ -5,3 +5,6 @@ alter table course drop column fees;
 
 alter table course rename column address to student_Address;
 
+
+
+
