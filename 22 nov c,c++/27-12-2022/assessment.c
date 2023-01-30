@@ -59,7 +59,7 @@ start:
     else
     {
         printf("\ntotal Bill is %d", total_amount);
-        printf("\nVisit again");                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+        printf("\nVisit again");
     }
     return 0;
 }

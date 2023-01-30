@@ -35,8 +35,9 @@ int main()
     }
     printf("*************************************************************************\n");
     return 0;
+    getch();
 }
 
-StudentResult
-studentResult
-Student_Result_program
+// StudentResult
+// studentResult
+// Student_Result_program

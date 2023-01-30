@@ -15,9 +15,9 @@ int main()
     scanf("%d", &n);
     struct student s[n];
     FILE *fp;
-    fp = fopen("Employee.txt", "w");
+    fp = fopen("Employee.xls", "w");
     fprintf(fp, "%s", "**************************************************************************\n");
-    fprintf(fp, "%s", "name\t|\tage\t|\tmarks\t|\tpercentage\t|\n");
+    fprintf(fp, "%s", "name\t\t|\tage\t|\tmarks\t|\tpercentage\t|\n");
 
     for (int i = 0; i < n; i++)
     {
@@ -31,7 +31,7 @@ int main()
         printf("Enter Percentage: ");
         scanf("%f", &s[i].percentage);
         fprintf(fp, "%s", "--------------------------------------------------------------------\n");
-        fprintf(fp, "%s\t|\t%d\t|\t%d\t|\t%f\t|\n", s[i].name, s[i].age, s[i].marks, s[i].percentage);
+        fprintf(fp, "%s\t\t|\t%d\t|\t%d\t|\t%f\t|\n", s[i].name, s[i].age, s[i].marks, s[i].percentage);
     }
     fprintf(fp, "%s", "**************************************************************************\n");
     fclose(fp);
@@ -43,5 +43,6 @@ int main()
         printf("%s\t|\t%d\t|\t%d\t|\t%f\t|\n", s[i].name, s[i].age, s[i].marks, s[i].percentage);
     }
     printf("*************************************************************************\n");
+    getch();
     return 0;
 }

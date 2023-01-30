@@ -1,13 +1,14 @@
 #include <stdio.h> //header file
 int main()         // main function
 {
-    int answer;//initailaization  definition
-    answer=60;//declaration
-    int num=65;//definition with declaration
-    float weight=56.36;
-    char first_letter ='S';
-
-    printf("Good Morning");
+    int answer;   // initailaization  definition
+    answer = 60;  // declaration
+    int num = 65; // definition with declaration
+    float weight = 56.36;
+    char first_letter = 'S';
+    printf("hgmn%d ythyth %dytjytj %d",answer,answer,answer);
+    // printf("Good Morning");
+    // printf("Good Morning");
     return 0;
 }
 /*
@@ -31,4 +32,33 @@ keywords
 comments
 single line----//
 multi line---/*
+
+
+
+
+variable declaration
+datatype variablename
+int age;
+
+variable initilization
+variablename=value
+age=54;
+
+declaration with initialization
+dataype variablename=value
+int age=54;
+
+int %d 8 9 765 465 4 -74 9 - 48 - 44
+float %f 65546.00 2.3685 -4555.2585
+char %c  '*' "0" ' ' 'h'
+
+identifier rule
+age &hyj $gnhf 7nhygt
+1)first character should be a-z A-Z _
+2)other character a-z A-Z _ 0-9
+
+logical name
+keywords 32
+space _
+
 */

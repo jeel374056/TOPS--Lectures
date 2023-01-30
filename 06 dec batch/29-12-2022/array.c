@@ -1,18 +1,21 @@
 #include <stdio.h>
 int main()
 {
-    int arr[20];
+    int num;
+    printf("enter arrey size");
+    scanf("%d",&num);
+    int arr[num];
     // printf("%d",arr[0]);
     // printf("%d",arr[1]);
     // printf("%d",arr[2]);
     // printf("%d",arr[3]);
     // printf("%d",arr[4]);
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < num; i++)
     {
         printf("Enter Number: ");
         scanf("%d", &arr[i]);
     }
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < num; i++)
     {
         printf("%d\n", arr[i]);
     }

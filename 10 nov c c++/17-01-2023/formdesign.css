@@ -1,0 +1,22 @@
+/* #first
+{
+    /* background-color: rgb(224, 133, 133);
+  
+}
+ */
+label
+{
+    color: red;
+    text-align: center;
+}
+legend
+{
+    color: blue;
+}
+body
+{
+    background: url("https: //www.freecodecamp.org/news/content/images/size/w2000/2021/06/w-qjCHPZbeXCQ-unsplash.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}

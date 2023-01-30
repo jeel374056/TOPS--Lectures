@@ -1,0 +1,10 @@
+employee
+
+empid
+empname
+age
+adress
+salary
+
+user will give how many employees
+

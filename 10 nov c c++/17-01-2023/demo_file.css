@@ -1,0 +1,18 @@
+/* li {
+             color:rgb(25, 205, 31);
+             font-size: x-large;
+         } */
+.first {
+    color: aquamarine;
+    font-size: medium;
+}
+
+.second {
+    color: rgb(183, 29, 29);
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#ols {
+    color: blue;
+}
