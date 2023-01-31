@@ -1,6 +1,7 @@
 {
   "files.associations": {
     "stdio.h": "c",
-    "SIMPLECALCULATOR.C": "cpp"
+    "SIMPLECALCULATOR.C": "cpp",
+    "*.tcc": "cpp"
   }
 }

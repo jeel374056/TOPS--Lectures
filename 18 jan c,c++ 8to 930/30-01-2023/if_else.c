@@ -4,24 +4,24 @@ int main()
     int age;
     printf("Enter Age: ");
     scanf("%d", &age);
-    printf("Before If");
     if (age > 18)
     {
         printf("Eligible For Voting");
     }
-    printf("After IF");
+    else
+    {
+        printf("Not eligible for voting");
+    }
     return 0;
 }
 /*
 if (condition)
 {
-    sjgvjfdkgjdfklgjfdgklfdhfdh
-    fdh
-    dh
-    dh
-    d
-    fdhd
+    True then this part of code runs
 }
-
+else
+{
+    False then this part of code will run
+}
 
 */

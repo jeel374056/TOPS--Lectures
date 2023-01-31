@@ -11,7 +11,7 @@ int main()
         m--;
         for (int k = 1; k <= n; k++)
         {
-            printf("* ");
+            printf(" *");
         }
         n++;
         printf("\n");
