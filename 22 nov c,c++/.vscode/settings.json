@@ -2,6 +2,8 @@
   "files.associations": {
     "stdio.h": "c",
     "SIMPLECALCULATOR.C": "cpp",
-    "*.tcc": "cpp"
+    "*.tcc": "cpp",
+    "iostream": "cpp",
+    "ostream": "cpp"
   }
 }

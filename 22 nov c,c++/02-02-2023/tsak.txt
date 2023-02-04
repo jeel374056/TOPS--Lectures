@@ -1,0 +1,9 @@
+class 
+
+
+4 constructor
+
+con1   0   good morning
+con2   1   square
+con3   2   multiplication
+con4   3   area of traingle

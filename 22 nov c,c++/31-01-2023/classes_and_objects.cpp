@@ -3,7 +3,7 @@ using namespace std;
 class calculation
 {
 public: // after public colon colon colon
-    static int x;
+    // static int x;
     int a, b, answer;
     void getdata();
     void putdata()
