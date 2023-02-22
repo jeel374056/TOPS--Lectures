@@ -1,11 +1,15 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 class demo
 {
 public:
     void calculation()
     {
-        cout << "Withou parameter function called " << endl;
+        int a;
+        cout << "Enter Value ";
+        cin >> a;
+        cout << "Square Root = " << sqrt(a);
     }
     void calculation(int a)
     {

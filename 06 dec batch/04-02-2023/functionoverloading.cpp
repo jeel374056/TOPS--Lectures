@@ -20,7 +20,7 @@ class calculation
         cout<<"Addition= " <<a+b+c;
     }
 };
-int main()
+int main()                                     
 {
     calculation c1;
     c1.addition(25,30,60);

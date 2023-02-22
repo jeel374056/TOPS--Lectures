@@ -26,6 +26,7 @@ public:
 };
 int main()
 {
+    
     general obj1(25, 30), obj2(25), obj3;
     return 0;
 }

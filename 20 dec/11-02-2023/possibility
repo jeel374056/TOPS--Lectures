@@ -1,0 +1,8 @@
+pre
+
+scanf("%d");
+scanf(" %s");
+
+scanf("%d");
+scanf(" ");
+gets(name);

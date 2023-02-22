@@ -1,0 +1,10 @@
+scanf("%d",&rollno);
+scanf(" %s",gender);
+
+scanf("%d",&rollno);
+scanf(" ");
+gets(name);
+
+cin>>int;
+cin.ignore();
+cin>>string;
