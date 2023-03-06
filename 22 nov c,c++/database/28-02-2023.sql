@@ -36,3 +36,13 @@ select deptname,location from department;
 
 
 
+
+
+
+
+
+
+
+
+
+
