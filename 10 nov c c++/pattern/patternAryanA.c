@@ -4,7 +4,7 @@ int main()
     int n = 1;
     for (int i = 6; i >= 0; i--)
     {
-        if (i != 3)
+        if (i != 3) //first half of the pattern
         {
             for (int j = 1; j <= i; j++)
             {

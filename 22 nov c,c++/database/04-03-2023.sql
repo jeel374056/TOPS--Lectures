@@ -20,11 +20,18 @@ SELECT MAX(SALARY) FROM EMPLOYEE GROUP BY DEPARTMENT ORDER BY SALARY;
 -- SELECT TABLE.FIELDS,TABLE2.FIELDS FROM TABLE1 JOIN TABLE2  
 -- ON TABLE1.COMMONFIELD=TABLE2.COMMONFILED;
 
-SELECT payments.*,customers.* from payments inner join customers on customers.customerNumber=
-payments.customerNumber;
+SELECT payments.*,customers.* from payments inner join customers 
+on customers.customerNumber=payments.customerNumber;
 
-select payments.customerNumber,payments.amount,customers.customerName from payments inner join customers on customers.customerNumber=
-payments.customerNumber;
+select payments.customerNumber,payments.amount,customers.customerName 
+from payments inner join customers on customers.customerNumber=payments.customerNumber;
 
-select sum(payments.amount),customers.customerNumber,customers.customerName from payments inner join customers on customers.customerNumber=
-payments.customerNumber group by customers.customerNumber;
+select sum(payments.amount),customers.customerNumber,customers.customerName from payments
+ inner join customers on customers.customerNumber=payments.customerNumber group by customers.customerNumber;
+ 
+ 
+use classicmodels;
+
+ 
+ 
+ 

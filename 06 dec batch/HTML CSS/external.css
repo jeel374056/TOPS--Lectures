@@ -1,0 +1,24 @@
+/* p
+        {
+            color: red;
+            font-size: 36px;
+            font-weight: 200;
+        } */
+.p_edit {
+    /* color: mediumaquamarine; */
+    color: #0a0dd8;
+    border:1px solid red;
+    margin: 150px;
+    padding: 30px;
+    height: 75px;
+    width: 360px;
+    background-image: url("book.jpg");
+background-color: aquamarine;    /* color: rgb(145,13,90); */
+
+
+}
+
+#p1 {
+    color: maroon;
+
+}
