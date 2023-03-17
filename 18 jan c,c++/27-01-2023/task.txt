@@ -1,0 +1,15 @@
+roll no
+marks of 5 subject 5 variable
+total ---your total
+percentage  ----your percentage
+
+grade
+
+33<  fail
+33 to 60 C
+60>85 B
+85>95 A
+95<100  A+
+
+Additional
+5 subject marks mese kisi me 33 se kam toh nhi hai warna directly fail
