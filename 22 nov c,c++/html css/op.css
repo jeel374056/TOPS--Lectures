@@ -1,0 +1,17 @@
+p {
+    color: maroon;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: red;
+}
+
+.demo {
+    color: yellow;
+    background-color: aqua;
+
+}
+
+#hello1 {
+    color: blueviolet;
+    padding: 40px;
+}

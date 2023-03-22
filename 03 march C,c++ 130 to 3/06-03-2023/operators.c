@@ -6,7 +6,6 @@ int main()
     int c = a % b;
     // float c = 45.36/5;
     printf("Addition of %d and %d is %d", a, b, c);
-
     return 0;
 }
 /*
