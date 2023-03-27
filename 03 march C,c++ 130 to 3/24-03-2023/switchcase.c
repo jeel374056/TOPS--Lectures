@@ -1,3 +1,4 @@
+// dayname based on dayno program
 #include <stdio.h>
 int main()
 {
@@ -5,11 +6,11 @@ int main()
     int a = 50;
     printf("Enter Day Number: ");
     scanf("%d", &num);
-    switch (num)
+    switch (num) //this is used for logical conditions
     {
-    case 1:
+    case 1:  //we will make different cases
     {
-        printf("monday");
+        printf("monday"); //print day on dependent day no
         break;
     }
     case 2:
