@@ -1,0 +1,19 @@
+p {
+    color: red;
+    background-color: yellow;
+    font-size: 29px;
+}
+
+.dem {
+    color: aqua;
+    background-color: blue;
+    font-size: 36px;
+}
+
+#hel {
+    color: rgb(198, 16, 214);
+    background-color: chocolate;
+    font-size: 48px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
